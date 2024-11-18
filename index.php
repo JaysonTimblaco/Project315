@@ -8,9 +8,50 @@ include "db.php";
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Homepage</title>
-    
+    <style>
+      body {
+       background-color: gray;
+       padding: 15%;
+     }
+     h1 {
+       color: blue;
+       text-align: center;
+     }
+     h2 {
+       color: blue;
+       text-align: center;
+     }
+     .div1{
+       
+     }
+     input {
+       font-size: 15px;
+     }
+     button {
+      display: inline-block;
+      padding: 10px;
+      font-size: 16px;
+      font-weight: bold;
+      color: white;
+      background-color: #007BFF;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      text-align: center;
+      text-decoration: none;
+     }
+     table {
+       border: solid 5px;
+     }
+     tr{
+       color: green;
+       text-align: center;
+     } 
+      
+    </style>
      </head>
-<div class="">
+<div class="class">
     <h1>Task List</h1>
       <table>
         <tr><th>Task Name</th></tr>

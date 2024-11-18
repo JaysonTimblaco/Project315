@@ -41,6 +41,37 @@ $conn->close();
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
+    <style>
+      body {
+       background-color: maroon;
+       padding: 1%;
+     }
+     h2 {
+       text-align: center;
+       
+     }
+     div{
+       justify-content: center;
+       text-align: center;
+     }
+     input {
+       font-size: 20px;
+     }
+     button {
+      display: inline-block;
+      padding: 10px;
+      font-size: 16px;
+      font-weight: bold;
+      color: white;
+      background-color: #007BFF;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      text-align: center;
+      text-decoration: none;
+     } 
+    </style>
   </head>
   <body>
     <div>
@@ -50,6 +81,7 @@ $conn->close();
   <button class="updt" type="submit">Update Task</button>
   <br>
   <button class="cancel"type="submit"><a href="index.php">Cancel</a></button>
+  
 </form>
 </div>
 </body>
