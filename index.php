@@ -20,6 +20,7 @@ while ($task = $result->fetch_assoc()):
 ?>
         <tr><td><?php echo $task['taskname'];?> 
         </td>
+        <td><a class="edit" href="edit_task.php?id=<?php echo $task['id']; ?>">Edit</a></td>
 </tr>
         
 <?php endwhile; ?>
@@ -38,8 +39,8 @@ while ($task = $result->fetch_assoc()):
       <input type="text" size="10" name="task-name" required placeholder="Enter Task"/>
       <button type="submit" name="subadd">
         Add Task
-      </button>
-    </form>
+</button>
+</form>
 </div>
-  </body>
+</body>
 </html>
